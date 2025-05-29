@@ -1,3 +1,4 @@
+package src;
 public class LibraryTest {
     public static void main(String[] args) {
 // Display library name
@@ -17,7 +18,8 @@ public class LibraryTest {
 // Return the book
         book1.returnItem();
         System.out.println("Available after return: " + book1.isAvailable() + "\n");
-// Create and test a movieMovie movie1 = new Movie("Inception", "Christopher Nolan", 2010, 148);
+// Create and test a movie
+        Movie movie1 = new Movie("Inception", "Christopher Nolan", 2010, 148);
         System.out.println(movie1.getDisplayString());
 // Add ratings to the movie
         movie1.addRating(5);
