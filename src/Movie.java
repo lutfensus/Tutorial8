@@ -2,7 +2,7 @@ package src;
 import java.util.ArrayList;
 import java.util.List;
 
-class Movie implements MediaItem, Rentable, Rateable {
+public class Movie implements MediaItem, Rentable, Rateable {
     private String title;
     private String director;
     private int releaseYear;

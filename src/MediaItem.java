@@ -1,7 +1,7 @@
 package src;
 
-interface MediaItem {
-    static final String LIBRARY_NAME = "Digital Commons Library";
+public interface MediaItem {
+    String LIBRARY_NAME = "Digital Commons Library";
 
     String getTitle();
     int getYear();

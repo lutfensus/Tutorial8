@@ -1,6 +1,6 @@
 package src;
 
-class Book implements MediaItem, Rentable {
+public class Book implements MediaItem, Rentable {
     private String title;
     private String author;
     private int publicationYear;

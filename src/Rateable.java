@@ -1,6 +1,6 @@
 package src;
 
-interface Rateable {
+public interface Rateable {
     void addRating(int rating);
     double getAverageRating();
 }
